@@ -1,0 +1,6 @@
+framework module DeviceData {
+  umbrella header "DeviceData-umbrella.h"
+
+  export *
+  module * { export * }
+}
