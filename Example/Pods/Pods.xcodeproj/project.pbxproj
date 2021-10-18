@@ -15,8 +15,8 @@
 		93D9CF5AC27C199A4A3EAF943A8BA08A /* DeviceData-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4818FC47F2F18E10F21D51D5DB3F0B19 /* DeviceData-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C690D6A447374FB589919D3DD13FC6CD /* DeviceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD471194908EBCE9A02839B033CD95E7 /* DeviceData.swift */; };
 		D5D16CEB8E1A1BCE3A31C3DA1E43C3AE /* Pods-DeviceData_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 314FB004BA4DD25A0D5C62C88A24D6E9 /* Pods-DeviceData_Example-dummy.m */; };
-		E863B9DA2707365D000BE661 /* DeviceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E863B9D92707365D000BE661 /* DeviceDataModel.swift */; };
-		E8B054F4270868C9005EE3D7 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B054F3270868C9005EE3D7 /* LocationManager.swift */; };
+		E8C85BF5271D38E3006BD2D5 /* DeviceDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C85BF3271D38E3006BD2D5 /* DeviceDataModel.swift */; };
+		E8C85BF6271D38E3006BD2D5 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8C85BF4271D38E3006BD2D5 /* LocationManager.swift */; };
 		F1D63519355A23A31C12BDE10E3CF8A5 /* Pods-DeviceData_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E8870CFFE475829927A4F3E44E04629 /* Pods-DeviceData_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FEE143AB53B02856AA7D1E5F93228E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
@@ -67,8 +67,8 @@
 		E564ABF3EB8FFD20F32E9FA69FF2354F /* Pods-DeviceData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceData_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5887ED921EE4123019CF1840B06E5CF /* Pods-DeviceData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeviceData_Tests-dummy.m"; sourceTree = "<group>"; };
 		E5C779EE7C31C72BACB937E12D46D93B /* Pods-DeviceData_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceData_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E863B9D92707365D000BE661 /* DeviceDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDataModel.swift; sourceTree = "<group>"; };
-		E8B054F3270868C9005EE3D7 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E8C85BF3271D38E3006BD2D5 /* DeviceDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceDataModel.swift; sourceTree = "<group>"; };
+		E8C85BF4271D38E3006BD2D5 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		F610AEE59A54D1348B70D329A2828823 /* Pods-DeviceData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeviceData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F99BC9AFD44FABACFF465DA3C2F43C41 /* DeviceData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DeviceData.modulemap; sourceTree = "<group>"; };
 		FC95C1C4FE472A143A86CBF99FB95A2B /* Pods-DeviceData_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DeviceData_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -162,7 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				DD471194908EBCE9A02839B033CD95E7 /* DeviceData.swift */,
-				E863B9D627072C59000BE661 /* Source */,
+				E8C85BF2271D38E3006BD2D5 /* Source */,
 				1E0950171E3CDC9311C94E5D86028847 /* Pod */,
 				9E629E6A74ED2E6BD970B08958AC0C27 /* Support Files */,
 			);
@@ -220,11 +220,11 @@
 			path = "Target Support Files/Pods-DeviceData_Tests";
 			sourceTree = "<group>";
 		};
-		E863B9D627072C59000BE661 /* Source */ = {
+		E8C85BF2271D38E3006BD2D5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				E8B054F3270868C9005EE3D7 /* LocationManager.swift */,
-				E863B9D92707365D000BE661 /* DeviceDataModel.swift */,
+				E8C85BF3271D38E3006BD2D5 /* DeviceDataModel.swift */,
+				E8C85BF4271D38E3006BD2D5 /* LocationManager.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -397,10 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8B054F4270868C9005EE3D7 /* LocationManager.swift in Sources */,
+				E8C85BF6271D38E3006BD2D5 /* LocationManager.swift in Sources */,
 				C690D6A447374FB589919D3DD13FC6CD /* DeviceData.swift in Sources */,
 				58A78D549FCB49C6ED44B0622EE22E20 /* DeviceData-dummy.m in Sources */,
-				E863B9DA2707365D000BE661 /* DeviceDataModel.swift in Sources */,
+				E8C85BF5271D38E3006BD2D5 /* DeviceDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,37 +422,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		10C31C2248ACCA70D3BE097646D59D11 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FF1E4D3C30A09E2F1A9DB24ED556EF5B /* DeviceData.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DeviceData/DeviceData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DeviceData/DeviceData-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DeviceData/DeviceData.modulemap";
-				PRODUCT_MODULE_NAME = DeviceData;
-				PRODUCT_NAME = DeviceData;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -506,7 +475,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -584,6 +553,36 @@
 			};
 			name = Debug;
 		};
+		B211CAA1DE3AC1AF9B4E0D4811FD520A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D5389C5E674A2739A350A305A950AFF /* DeviceData.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceData/DeviceData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceData/DeviceData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceData/DeviceData.modulemap";
+				PRODUCT_MODULE_NAME = DeviceData;
+				PRODUCT_NAME = DeviceData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		B7053A771EF3647F1BBD3B53230C8BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8CA09249A0E19C3C543109BF9D2C101F /* Pods-DeviceData_Tests.release.xcconfig */;
@@ -616,36 +615,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		BB12BD00AE26B53E3C81B84761263FCF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5D5389C5E674A2739A350A305A950AFF /* DeviceData.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/DeviceData/DeviceData-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/DeviceData/DeviceData-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/DeviceData/DeviceData.modulemap";
-				PRODUCT_MODULE_NAME = DeviceData;
-				PRODUCT_NAME = DeviceData;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		C4B57E4C819B0A1C68183DDB71FF18C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -729,7 +698,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -737,6 +706,37 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D9AB26DF7932EE325CAA3644E9EF60E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1E4D3C30A09E2F1A9DB24ED556EF5B /* DeviceData.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DeviceData/DeviceData-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeviceData/DeviceData-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeviceData/DeviceData.modulemap";
+				PRODUCT_MODULE_NAME = DeviceData;
+				PRODUCT_NAME = DeviceData;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.4;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -764,8 +764,8 @@
 		512C77A98F4217F836AB52FF6D0E829C /* Build configuration list for PBXNativeTarget "DeviceData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BB12BD00AE26B53E3C81B84761263FCF /* Debug */,
-				10C31C2248ACCA70D3BE097646D59D11 /* Release */,
+				B211CAA1DE3AC1AF9B4E0D4811FD520A /* Debug */,
+				D9AB26DF7932EE325CAA3644E9EF60E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

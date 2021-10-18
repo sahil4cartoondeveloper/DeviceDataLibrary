@@ -1,12 +1,11 @@
 //
 //  LocationManager.swift
-//  LocationManager
+//  Alamofire
 //
-//  Created by Rajan Maheshwari on 22/10/16.
-//  Copyright © 2016 Rajan Maheshwari. All rights reserved.
+//  Created by sahil vadadoriya on 18/10/21.
 //
 
-import UIKit
+import Foundation
 import MapKit
 
 final class LocationManager: NSObject {
@@ -321,7 +320,11 @@ extension LocationManager: CLLocationManagerDelegate {
                }
                
            case .notDetermined:
-               self.locationManager?.requestLocation()
+               if #available(iOS 9.0, *) {
+                   self.locationManager?.requestLocation()
+               } else {
+                   // Fallback on earlier versions
+               }
                
            @unknown default:
                    didComplete(location: nil,error: NSError(

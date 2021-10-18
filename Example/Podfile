@@ -4,6 +4,7 @@ platform :ios, '9.0'
 
 target 'DeviceData_Example' do
   pod 'DeviceData', :path => '../'
+#  pod 'Alamofire'
 
   target 'DeviceData_Tests' do
     inherit! :search_paths

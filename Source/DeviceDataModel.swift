@@ -1,8 +1,8 @@
 //
 //  DeviceDataModel.swift
-//  DeviceData
+//  Alamofire
 //
-//  Created by sahil vadadoriya on 01/10/21.
+//  Created by sahil vadadoriya on 18/10/21.
 //
 
 import Foundation
