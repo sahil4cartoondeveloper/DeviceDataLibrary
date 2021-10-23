@@ -62,7 +62,7 @@
 		D5868417CA6920AD7B5784547A0D761B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		D593E5BEB4221FF272DBF69E51945319 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBE4E3D899BBC99DE59A02391575BE9 /* Request.swift */; };
 		E5738D65A68D21BEE8ECC9119BD85985 /* AlamofireObjectMapper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F937CBA3AA2A66028E1708B7D8863C /* AlamofireObjectMapper-dummy.m */; };
-		E8EB39312722C8DF00F4738A /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EB39302722C8DF00F4738A /* LocationManager.swift */; };
+		E883B4372723CF0A003319ED /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E883B4362723CF0A003319ED /* LocationManager.swift */; };
 		EEA3CFAF96251DEE56D01D800B99EA5F /* EnumTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BDF6CFA97BF3A718BD7643A4CEF4889 /* EnumTransform.swift */; };
 		F49116D3E0531E84D1B01FAECE1ACB78 /* DateFormatterTransform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E43402BBAEA2A154A6A67AA871695FDC /* DateFormatterTransform.swift */; };
 		F4BE490D7AF20C8499DED81292B70D2E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -212,7 +212,7 @@
 		E564ABF3EB8FFD20F32E9FA69FF2354F /* Pods-DeviceData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DeviceData_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E5887ED921EE4123019CF1840B06E5CF /* Pods-DeviceData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DeviceData_Tests-dummy.m"; sourceTree = "<group>"; };
 		E5C779EE7C31C72BACB937E12D46D93B /* Pods-DeviceData_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DeviceData_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E8EB39302722C8DF00F4738A /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		E883B4362723CF0A003319ED /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationManager.swift; path = DeviceData/Classes/LocationManager.swift; sourceTree = "<group>"; };
 		EDF1D245C72DC9BE65981C54F3F149F0 /* AlamofireObjectMapper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlamofireObjectMapper.release.xcconfig; sourceTree = "<group>"; };
 		F1CD34528E1BC582607906EA2CE5BED9 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		F610AEE59A54D1348B70D329A2828823 /* Pods-DeviceData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DeviceData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -387,10 +387,10 @@
 		71A71C867B7123D1C3D814E0955724A1 /* DeviceData */ = {
 			isa = PBXGroup;
 			children = (
-				E8EB39302722C8DF00F4738A /* LocationManager.swift */,
 				DD471194908EBCE9A02839B033CD95E7 /* DeviceData.swift */,
 				1E0950171E3CDC9311C94E5D86028847 /* Pod */,
 				9E629E6A74ED2E6BD970B08958AC0C27 /* Support Files */,
+				E883B4362723CF0A003319ED /* LocationManager.swift */,
 			);
 			name = DeviceData;
 			path = ../..;
@@ -827,9 +827,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E8EB39312722C8DF00F4738A /* LocationManager.swift in Sources */,
 				C690D6A447374FB589919D3DD13FC6CD /* DeviceData.swift in Sources */,
 				58A78D549FCB49C6ED44B0622EE22E20 /* DeviceData-dummy.m in Sources */,
+				E883B4372723CF0A003319ED /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
