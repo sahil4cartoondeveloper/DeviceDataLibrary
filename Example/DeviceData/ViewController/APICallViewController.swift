@@ -58,7 +58,7 @@ class APICallViewController: UIViewController {
     
     private func apiCall() {
         serviceCall.getUserDataServiceCall { response in
-            print("Respons :- \(response)")
+//            print("Respons :- \(response)")
             self.userListArray = response
             self.tableView.reloadData()
         } errorBlock: { (errorMessage: String) in
@@ -68,7 +68,7 @@ class APICallViewController: UIViewController {
     
     private func postAPICall() {
         serviceCall.getPostDataServiceCall { response in
-            print("Respons :- \(response)")
+//            print("Respons :- \(response)")
             self.postListArray = response
             self.tableView.reloadData()
         } errorBlock: { (errorMessage: String) in
@@ -78,7 +78,7 @@ class APICallViewController: UIViewController {
     
     private func commentsAPICall() {
         serviceCall.getCommentsDataServiceCall { response in
-            print("Respons :- \(response)")
+//            print("Respons :- \(response)")
             self.commentListArray = response
             self.tableView.reloadData()
         } errorBlock: { (errorMessage: String) in
@@ -88,7 +88,7 @@ class APICallViewController: UIViewController {
     
     private func albumsAPICall() {
         serviceCall.getAlbumsDataServiceCall { response in
-            print("Respons :- \(response)")
+//            print("Respons :- \(response)")
             self.albumListArray = response
             self.tableView.reloadData()
         } errorBlock: { (errorMessage: String) in
@@ -98,7 +98,7 @@ class APICallViewController: UIViewController {
     
     private func photosAPICall() {
         serviceCall.getPhotosDataServiceCall { response in
-            print("Respons :- \(response)")
+//            print("Respons :- \(response)")
             self.photosListArray = response
             self.tableView.reloadData()
         } errorBlock: { (errorMessage: String) in
@@ -108,7 +108,7 @@ class APICallViewController: UIViewController {
     
     private func todosAPICall() {
         serviceCall.getTodosDataServiceCall { response in
-            print("Respons :- \(response)")
+//            print("Respons :- \(response)")
             self.todosListArray = response
             self.tableView.reloadData()
         } errorBlock: { (errorMessage: String) in

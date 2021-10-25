@@ -387,10 +387,10 @@
 		71A71C867B7123D1C3D814E0955724A1 /* DeviceData */ = {
 			isa = PBXGroup;
 			children = (
+				E883B4362723CF0A003319ED /* LocationManager.swift */,
 				DD471194908EBCE9A02839B033CD95E7 /* DeviceData.swift */,
 				1E0950171E3CDC9311C94E5D86028847 /* Pod */,
 				9E629E6A74ED2E6BD970B08958AC0C27 /* Support Files */,
-				E883B4362723CF0A003319ED /* LocationManager.swift */,
 			);
 			name = DeviceData;
 			path = ../..;

@@ -79,6 +79,7 @@ public class DeviceDetails: NSObject {
     var responseTime: Double?
     var url: URL?
     var statusCode: Int?
+    var duration: Double?
     
     public override init() {}
     
